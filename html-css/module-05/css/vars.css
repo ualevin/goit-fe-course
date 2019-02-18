@@ -1,0 +1,18 @@
+:root {
+    --main-font-col: #555252;
+    --sele-font-col: #1abc9c;
+    --menu-font-col: black;
+    --card-font-col: white;
+    --card-ov-bg-1col:rgba(255, 255, 255, .55);
+    --card-ov-bg-2col:rgba(0, 0, 0, .55);
+    --card-ov-bg-marg-size:10px;
+    --pelem-th: 7px;
+    --pelem-len: 164px;
+    --bg-1color: white;
+    --bg-2color: #e9f0fd;
+    --bg-3color: #323232;
+    --font-type2: "Open Sans", sans-serif;
+    --main-width: 1600px;
+    --header-height:90px;
+    --font-type1: "Roboto", sans-serif;
+  }
