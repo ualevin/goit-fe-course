@@ -1,0 +1,65 @@
+@import "./vars.css";
+@import "./fonts.css";
+/* html{
+
+}
+:root{
+
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.header{
+  background-color: rgba(255, 0, 0, .5);
+  min-height: 65px;
+}
+.container{
+  width: 940px;
+  margin: 0 auto;
+}
+.header-block{
+  display:flex;
+}
+.section{
+padding-top:128px;
+background-color: rgba(0, 255, 0, .5)
+}
+.section-header{
+  text-align: center;
+  
+}
+.section-header__title{
+  padding: 0;
+  margin: 0;
+}
+.section-header__first-line{
+margin: 0;
+padding: 0;
+text-transform: uppercase;
+}
+.section-header__second-line{
+  margin: 0;
+  padding: 0;
+}
+.section-header__second-line--firstletter::first-letter{
+  text-transform: uppercase;
+}
+.services-table{
+background-color: rgba(0, 0, 255, .5);
+padding: 0;
+display: flex;
+}
+.services-table__card{
+  flex-basis: 325px;
+}
