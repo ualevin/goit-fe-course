@@ -55,7 +55,8 @@ img {
   font-size: 14px;
   color: var(--main-color2);
 }
-.nav__link:hover,.nav__link:focus {
+.nav__link:hover,
+.nav__link:focus {
   color: var(--main-color1);
 }
 .section {
@@ -64,11 +65,10 @@ img {
 }
 .section-header {
   text-align: center;
-}
-.section-header__title {
-  margin: 0;
+  margin-bottom: 76px;
 }
 .section-header__first-line {
+  margin: 0;
   display: block;
   text-transform: uppercase;
   font-family: var(--main-font3), sans-serif;
@@ -94,36 +94,36 @@ img {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  padding-top: 76px;
 }
 .services-table__card {
   flex-basis: 300px;
   list-style: none;
 }
-.services-table__content {
+/* .services-table__content {
   list-style: none;
   display: flex;
   flex-direction: column;
   padding: 0;
   margin: 0;
-  align-items: center;
-}
+  
+} */
 .services-table__el-1 {
+  margin: 0;
   display: block;
   margin-bottom: 20px;
   font-size: 18px;
   font-family: var(--main-font3), sans-serif;
   color: var(--main-color2);
+  text-align: center;
 }
 .services-table__el-2 {
-  display: block;
+  margin: 0;
   margin-bottom: 20px;
   font-family: var(--main-font6);
   font-size: 14px;
   color: var(--main-color3);
   text-align: center;
   line-height: 1.2;
-  max-width: 250px;
 }
 
 .services-table__element--sprite::before {
@@ -148,7 +148,6 @@ img {
   background-position: -153px -1px;
 }
 .main__form {
-  margin: 0 auto;
   min-height: 676px;
   background-color: #222222;
   background-image: url(../img/Map_Image.png);
@@ -156,9 +155,6 @@ img {
   background-size: contain;
   background-position: right 100px;
   padding-top: 100px;
-}
-.contact-form{
-  padding-top: 80px;
 }
 .contact-form__content {
   display: flex;
@@ -206,6 +202,7 @@ img {
   color: white;
   font-size: 18px;
   text-transform: uppercase;
+  transition: background-color 0.3s linear, color 0.2s linear;
 }
 .main-form__input-type--valid:valid:focus {
   border-color: green;
@@ -213,10 +210,15 @@ img {
 .main-form__input-type--valid:invalid:focus {
   border-color: red;
 }
-.main-form__input-type1:focus::placeholder{
+.main-form__input-type1:focus::placeholder {
   opacity: 0;
   transition: opacity 0.3s ease;
-  }
+}
+.main-form__button:hover,
+.main-form__button:focus {
+  background-color: white;
+  color: var(--main-color1);
+}
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
