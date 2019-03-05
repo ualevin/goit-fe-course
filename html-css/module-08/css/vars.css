@@ -2,12 +2,9 @@
    
 } */
 html{
---main-color1:#fed136;
---main-color2:#222222;
---main-color3:#777777;
---main-font1: 'MontserratRegulal';
---main-font2:'WisdomRegular';
---main-font3:'MontserratBold';
---main-font4:'DroidSerifItalic';
---main-font5:'RobotoSlabRegular';
+--main-font-color:white;
+--main-font-color2:#333333;
+--button-color:#ff4e50;
+--main-font:'Montserrat', sans-serif;
+--main-font2:'Roboto', sans-serif;
 }

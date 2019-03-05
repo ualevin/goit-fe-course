@@ -1,0 +1,75 @@
+@import "./fonts.css";
+@import "./libs/utils.css";
+@import "./vars.css";
+@import "./components/header.css";
+@import "./components/main-section.css";
+body {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.container{
+  width: 320px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 670px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 940px;
+  }
+}
+.section{
+  padding-top: 70px;
+}
+.--white{
+  color: var(--main-font-color);  
+}
+.--black{
+  color: var(--main-font-color2);  
+}
+.button {
+  font-size:14px;
+  border: 2px solid;
+  border-color: transparent;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-family: var(--main-font);
+  background-color: transparent;
+  cursor: pointer;
+}
+.button--white{
+  color: var(--main-font-color);
+}
+.button--red{
+  color: var(--main-font-color);
+  background-color:var(--button-color);
+  border-color:var(--button-color);
+}
+.button::first-letter {
+  text-transform: uppercase;
+}
+.block-center__button {
+  text-align: center;
+  padding-bottom: 50px;
+
+}
+.button--white:hover{
+  border-color:var(--main-font-color);
+}
+.button--red:hover{
+  border-color:var(--button-color);
+  background-color:var(--main-font-color);
+  color:var(--button-color);
+}
+
