@@ -1,0 +1,134 @@
+.hh-wrapper {
+  background: rgb(22, 25, 21) url("../../img/background.png") no-repeat center;
+  background-size: cover;
+  height: 540px;
+}
+.hh {
+  padding-top: 20px;
+}
+.hh__logo {
+  font-size: 20px;
+  margin: 0;
+}
+.hh__link {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: var(--main-font);
+  font-size: 20px;
+}
+.block-partner__text {
+  font-size: 18px;
+}
+.hh__header {
+  margin: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.hh__action-table {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  min-width: 200px;
+}
+.hh__table-item {
+  list-style: none;
+  margin-right: 5px;
+}
+.hh__table-item:last-child {
+  margin-right: 0;
+}
+.hh__hero {
+  margin: 0 auto;
+  padding-top: 152px;
+  width: 320px;
+}
+@media screen and (min-width: 768px) {
+  .hh__hero {
+    width: 504px;
+  }
+}
+
+.block-partner__slogan {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: var(--main-font);
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .block-partner__slogan {
+    margin-bottom: 40px;
+    font-size: 52px;
+  }
+}
+
+.block-partner__text {
+  margin: 0 auto;
+  width: 218px;
+  text-align: center;
+  font-family: var(--main-font2);
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .block-partner__text {
+    width: 398px;
+    font-size: 24px;
+    margin-bottom: 34px;
+  }
+}
+.button--red {
+  min-width: 280px;
+}
+@media screen and (min-width: 768px) {
+  .button--red {
+    width: 228px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .hh-wrapper {
+    height: 700px;
+  }
+  .hh {
+    padding-top: 40px
+  }
+  .hh__header {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hh__action-table {
+    margin-bottom: 0;
+  }
+  .button--red {
+    min-width: 226px;
+  }
+}
+  @media screen and (min-width: 1440px) {
+    .hh-wrapper {
+      height: 700px;
+    }
+    .hh {
+      padding-top: 40px;
+    }
+    .hh__header {
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .hh__action-table {
+      margin-bottom: 0;
+    }
+    .button--red {
+      min-width: 226px;
+    }
+  }
