@@ -14,12 +14,12 @@ img {
   margin: 0 auto;
   width: 320px;
 }
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) and (max-width: 940px) {
   .container {
     width: 670px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 940px) {
   .container {
     width: 940px;
   }
@@ -35,6 +35,7 @@ img {
   color: var(--main-font-color2);
 }
 .button {
+  display: block;
   font-size: 14px;
   border: 2px solid;
   border-color: transparent;
@@ -43,6 +44,7 @@ img {
   font-family: var(--main-font);
   background-color: transparent;
   cursor: pointer;
+  margin: 0 auto;
 }
 .button--white {
   color: var(--main-font-color);

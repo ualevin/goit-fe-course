@@ -5,18 +5,3 @@
 @import "./common-styles.css";
 @import "./components/header.css";
 @import "./components/main-section.css";
-
-/* .container{
-  margin: 0 auto;
-  width: 320px;
-}
-@media screen and (min-width: 768px) and (max-width:1440px){
-  .container {
-    width: 670px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .container {
-    width: 940px;
-  }
-} */
