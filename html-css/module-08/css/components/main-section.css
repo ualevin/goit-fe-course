@@ -20,37 +20,20 @@
   margin: 0;
 }
 .section__partner-item {
+  margin: 0;
   flex-basis: 200px;
   list-style: none;
-  margin-bottom: 28px;
 }
-@media screen and (max-width: 1440px) and (min-width: 768px){
-    .section__partner-item{
-        flex-basis:310px;
-        margin: 0;
-    }
-    .section__partner-item:nth-child(2){
-        order:1;
-    }
-    .section__partner-item:nth-child(4){
-        order:2;
-    }
-    .section__partner-item:nth-child(2n){
-        margin-top:58px;
-    }
+.section__partner-item:nth-child(n + 2) {
+  margin-top: 28px;
 }
 .section__partner-photo {
   margin: 0 auto;
   max-width: 100%;
 }
-.section__partner-capt{
-    width: 200px;
-    margin: 0 auto;
-}
-@media screen and (max-width: 1440px) and (min-width: 768px){
-    .section__partner-capt{
-        width: 200px;
-    }
+.section__partner-capt {
+  width: 200px;
+  margin: 0 auto;
 }
 .section__partner-name {
   margin: 0;
@@ -61,39 +44,55 @@
 }
 .section__partner-text {
   margin: 0;
-  margin-top:15px;
-text-align: center;
+  margin-top: 15px;
+  text-align: center;
   font-family: var(--main-font2);
   font-size: 14px;
 }
-@media screen and (min-width: 768px) and (max-width: 1440px){
-  .hh {
-    padding-top: 40px;
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .section__partner-table {
+    margin-top: 32px;
+    justify-content: space-between;
+  }
+  .section {
+    padding-top: 72px;
+    padding-bottom: 40px;
+  }
+  .section__partner-capt {
+    width: 200px;
+  }
+  .section__partner-item {
+    flex-basis: 310px;
+  }
+  .section__partner-item:nth-child(n) {
+    margin: 0;
+  }
+  .section__partner-item:nth-child(2) {
+    order: 1;
+  }
+  .section__partner-item:nth-child(4) {
+    order: 2;
+  }
+  .section__partner-item:nth-child(2n) {
+    margin-top: 58px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section {
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
   .section__partner-table {
     margin-top: 32px;
     justify-content: space-between;
   }
-  .block-center__button{
-      padding-top:40px
+  .section__partner-item:nth-child(n) {
+    margin: 0;
   }
-}
-
-@media screen and (min-width: 1440px) {
-    .section__partner-table {
-        margin-top: 32px;
-        justify-content: space-between;}
-        .section__partner-item{
-            margin: 0;
-        }
-        .section__partner-item:nth-child(2){
-            order:1;
-        }
-        .section__partner-item:nth-child(4){
-            order:2;
-        }
-        .block-center__button{
-            padding-top:40px;
-            padding-bottom: 74px;
-        }  
+  .section__partner-item:nth-child(2) {
+    order: 1;
+  }
+  .section__partner-item:nth-child(4) {
+    order: 2;
+  }
 }
