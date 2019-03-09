@@ -9,6 +9,7 @@
 .masthead__logo {
   font-size: 20px;
   margin: 0;
+  margin-bottom: 40px;
 }
 .masthead__link {
   display: block;
@@ -39,7 +40,6 @@
 }
 .masthead__hero {
   margin: 0 auto;
-  margin-top: 40px;
   width: 320px;
 }
 .hero__header{
@@ -71,9 +71,11 @@
   .masthead {
     padding-top: 40px;
   }
+  .masthead{
+    margin-bottom:152px;
+  } 
   .masthead__hero {
     width: 504px;
-    margin-top: 152px;
   }
   .block-partner__slogan {
     font-size: 52px;
@@ -125,9 +127,11 @@
     font-size: 24px;
     margin-bottom: 35px;
   }
+  .masthead{
+    margin-bottom: 152px;
+  }
   .masthead__hero {
     width: 504px;
-    margin-top: 152px;
   }
   .block-partner__slogan {
     font-size: 52px;
