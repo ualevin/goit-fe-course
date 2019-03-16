@@ -1,0 +1,128 @@
+.section__header {
+  margin-bottom: 15px;
+}
+.section__header-text {
+  margin: 0;
+  text-align: center;
+  text-transform: lowercase;
+  font-family: var(--main-font);
+  font-size: 22px;
+}
+.section__header-text::first-letter {
+  text-transform: uppercase;
+}
+.section__partner-table {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.section__figure {
+  margin: 0;
+}
+.section__partner-item {
+  margin: 0;
+  list-style: none;
+}
+.section__partner-item {
+  margin-bottom: 28px;
+}
+.section__partner-item:last-child {
+  margin-bottom: 0px;
+}
+.section__partner-photo {
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 50%;
+}
+.section__icon-pos {
+  width: 200px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 20px;
+}
+.section__icon-pos::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-25px, 5px);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background-image: url(../../img/spritesheet.png);
+  background-repeat: no-repeat;
+}
+.cup::after {
+  background-position: -38px -4px;
+  background-color: #1cd7ad;
+}
+.tv::after {
+  background-position: -2px -3px;
+  background-color: #ff4e50;
+}
+.jug::after {
+  background-position: -73px -2px;
+  background-color: #ffa507;
+}
+.tel::after {
+  background-position: -4px -38px;
+  background-color: #4e73db;
+}
+.section__partner-capt {
+  margin: 0 auto;
+  width: 200px;
+}
+.section__partner-name {
+  margin: 0;
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.section__partner-text {
+  margin: 0;
+  text-align: center;
+  font-family: var(--main-font2);
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .section__header {
+    margin-bottom: 32px;
+  }
+  .section__partner-item {
+    margin-bottom: 60px;
+  }
+  .section__partner-item:nth-child(2) {
+    order: 1;
+  }
+  .section__partner-item:nth-child(4) {
+    order: 2;
+  }
+  .section__partner-item:nth-child(2n) {
+    margin-bottom: 0;
+  }
+  .section__partner-table {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .section__header {
+    margin-bottom: 32px;
+  }
+  .section__partner-item:nth-child(n) {
+    margin: 0;
+  }
+  .section__partner-item:nth-child(2) {
+    order: 1;
+  }
+  .section__partner-item:nth-child(4) {
+    order: 2;
+  }
+}
